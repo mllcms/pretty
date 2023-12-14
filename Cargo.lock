@@ -3,5 +3,14 @@
 version = 3
 
 [[package]]
+name = "color-string"
+version = "0.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5d803f553623f63b124b70aa6816906776d851d6a5af14d1c79a453137ec6ae6"
+
+[[package]]
 name = "pretty"
 version = "0.1.0"
+dependencies = [
+ "color-string",
+]
